@@ -5,7 +5,7 @@ const FeaturedItemsMain = () => {
     <>
         <div className="px-2 py-2">
             <div className="shadow-sm bg-white">
-                <div className="row p-4">
+                <div className="row py-4">
                     <div className="col-12 col-md-2 d-flex justify-content-center">
                         <div className="d-flex flex-column align-items-center justify-content-center">
                             <h2 className='text-2xl text-center p-2'>Top Deals on Today</h2>
@@ -19,9 +19,9 @@ const FeaturedItemsMain = () => {
                             <div className="carousel-inner">
                                 <div className="carousel-item active">
                                     <div className="row justify-content-between">
-                                        <div className="col-12 col-md-2">
+                                        <div className="col-12 col-md-2 featured-item-wrapper">
                                             <div className='d-flex flex-column align-items-center'>
-                                                <div className='object-fit-cover'>
+                                                <div className='featured-items-img'>
                                                     <img style={{width: '150px', height: '140px'}}  className="img-responsive" src="https://rukminim1.flixcart.com/image/200/200/kyag87k0/computer/7/r/u/raider-ge66-12ugs-gaming-laptop-msi-original-imagakb9zw7gqzcm.jpeg?q=70" />
                                                 </div>
                                                 <div className="d-flex flex-column align-items-center py-4">
@@ -37,9 +37,9 @@ const FeaturedItemsMain = () => {
                                                 </div>                                
                                             </div>
                                         </div>
-                                        <div className="col-md-2">
+                                        <div className="col-md-2 featured-item-wrapper">
                                             <div className='d-flex flex-column align-items-center'>
-                                                <div className='object-fit-cover'>
+                                                <div className='featured-items-img'>
                                                     <img style={{width: '150px', height: '140px'}}  className="img-responsive" src="https://rukminim1.flixcart.com/image/200/200/kokdci80/dslr-camera/v/e/x/z-24-200mm-z5-nikon-original-imag2zuekuxgxsgg.jpeg?q=70" />
                                                 </div>
                                                 <div className="d-flex flex-column align-items-center py-4">
@@ -55,9 +55,9 @@ const FeaturedItemsMain = () => {
                                                 </div>
                                             </div>
                                         </div>
-                                        <div className="col-md-2">
+                                        <div className="col-md-2 featured-item-wrapper">
                                             <div className='d-flex flex-column align-items-center'>
-                                                <div>
+                                                <div className='featured-items-img'>
                                                     <img style={{width: '150px', height: '140px'}}  className="img-responsive" src="https://rukminim1.flixcart.com/image/200/200/l3khsi80/projector/z/h/4/-original-imagenqrzfcgwqk7.jpeg?q=70" />
                                                 </div>
                                                 <div className="d-flex flex-column align-items-center py-4">
@@ -73,9 +73,9 @@ const FeaturedItemsMain = () => {
                                                 </div>
                                             </div>
                                         </div>
-                                        <div className="col-md-2">
+                                        <div className="col-md-2 featured-item-wrapper">
                                             <div className='d-flex flex-column align-items-center'>
-                                                <div>
+                                                <div className='featured-items-img'>
                                                     <img style={{width: '150px', height: '140px'}}  className="img-responsive" src="https://rukminim1.flixcart.com/image/200/200/l4x2rgw0/monitor/n/y/y/q24i-20-full-hd-23-8-66eegac3in-lenovo-original-imagfpgxzsk8ef26.jpeg?q=70" />
                                                 </div>
                                                 <div className="d-flex flex-column align-items-center py-4">
@@ -91,9 +91,9 @@ const FeaturedItemsMain = () => {
                                                 </div>
                                             </div>
                                         </div>
-                                        <div className="col-md-2">
+                                        <div className="col-md-2 featured-item-wrapper">
                                             <div className='d-flex flex-column align-items-center'>
-                                                <div>
+                                                <div className='featured-items-img'>
                                                     <img style={{width: '150px', height: '140px'}} className="img-responsive" src="https://rukminim1.flixcart.com/image/200/200/hair-dryer/c/t/g/philips-hp8100-46-original-imaemymzuxrnzfjb.jpeg?q=70" />
                                                 </div>
                                                 <div className="d-flex flex-column align-items-center py-4">
@@ -113,9 +113,9 @@ const FeaturedItemsMain = () => {
                                 </div>
                                 <div className="carousel-item">
                                 <div className="row justify-content-between">
-                                        <div className="col-12 col-md-2">
+                                        <div className="col-12 col-md-2 featured-item-wrapper">
                                             <div className='d-flex flex-column align-items-center'>
-                                                <div className='object-fit-cover'>
+                                                <div className='featured-items-img'>
                                                     <img style={{width: '150px', height: '140px'}}  className="img-responsive" src="https://rukminim1.flixcart.com/image/200/200/kyag87k0/computer/7/r/u/raider-ge66-12ugs-gaming-laptop-msi-original-imagakb9zw7gqzcm.jpeg?q=70" />
                                                 </div>
                                                 <div className="d-flex flex-column align-items-center py-4">
@@ -131,9 +131,9 @@ const FeaturedItemsMain = () => {
                                                 </div>                                
                                             </div>
                                         </div>
-                                        <div className="col-md-2">
+                                        <div className="col-md-2 featured-item-wrapper">
                                             <div className='d-flex flex-column align-items-center'>
-                                                <div className='object-fit-cover'>
+                                                <div className='featured-items-img'>
                                                     <img style={{width: '150px', height: '140px'}}  className="img-responsive" src="https://rukminim1.flixcart.com/image/200/200/kokdci80/dslr-camera/v/e/x/z-24-200mm-z5-nikon-original-imag2zuekuxgxsgg.jpeg?q=70" />
                                                 </div>
                                                 <div className="d-flex flex-column align-items-center py-4">
@@ -149,9 +149,9 @@ const FeaturedItemsMain = () => {
                                                 </div>
                                             </div>
                                         </div>
-                                        <div className="col-md-2">
+                                        <div className="col-md-2 featured-item-wrapper">
                                             <div className='d-flex flex-column align-items-center'>
-                                                <div>
+                                                <div className='featured-items-img'>
                                                     <img style={{width: '150px', height: '140px'}}  className="img-responsive" src="https://rukminim1.flixcart.com/image/200/200/l3khsi80/projector/z/h/4/-original-imagenqrzfcgwqk7.jpeg?q=70" />
                                                 </div>
                                                 <div className="d-flex flex-column align-items-center py-4">
@@ -167,9 +167,9 @@ const FeaturedItemsMain = () => {
                                                 </div>
                                             </div>
                                         </div>
-                                        <div className="col-md-2">
+                                        <div className="col-md-2 featured-item-wrapper">
                                             <div className='d-flex flex-column align-items-center'>
-                                                <div>
+                                                <div className='featured-items-img'>
                                                     <img style={{width: '150px', height: '140px'}}  className="img-responsive" src="https://rukminim1.flixcart.com/image/200/200/l4x2rgw0/monitor/n/y/y/q24i-20-full-hd-23-8-66eegac3in-lenovo-original-imagfpgxzsk8ef26.jpeg?q=70" />
                                                 </div>
                                                 <div className="d-flex flex-column align-items-center py-4">
@@ -185,9 +185,9 @@ const FeaturedItemsMain = () => {
                                                 </div>
                                             </div>
                                         </div>
-                                        <div className="col-md-2">
+                                        <div className="col-md-2 featured-item-wrapper">
                                             <div className='d-flex flex-column align-items-center'>
-                                                <div>
+                                                <div className='featured-items-img'>
                                                     <img style={{width: '150px', height: '140px'}} className="img-responsive" src="https://rukminim1.flixcart.com/image/200/200/hair-dryer/c/t/g/philips-hp8100-46-original-imaemymzuxrnzfjb.jpeg?q=70" />
                                                 </div>
                                                 <div className="d-flex flex-column align-items-center py-4">
