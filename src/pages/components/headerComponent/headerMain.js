@@ -9,7 +9,7 @@ const Header = () => {
         <nav className="navbar-nav navbar-dark navbar-expand p-2" style={{backgroundColor: '#2874f0'}}>
             <div className="row text-center align-items-center font-weight-bold">
                 <div className="navbar-brand col-12 offset-md-1 col-md-1">
-                    <img width={80} src={"https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/flipkart-plus_8d85f4.png"} />
+                    <a href="/"><img width={80} src={"https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/flipkart-plus_8d85f4.png"} /></a>
                     <a style={{fontSize: '10px', textDecoration: 'none', color: 'white'}} className='flipkart-plus d-flex align-items-center'>
                         Explore 
                         <span style={{color: '#f4c61d', padding: '0px 4px'}}>Plus</span>

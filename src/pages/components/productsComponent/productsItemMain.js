@@ -5,7 +5,7 @@ const ProductsItemMain = () => {
 		<div className='p-3 h-100 w-100 bg-white'>
 			<div aria-label="breadcrumb">
 				<ol className="breadcrumb">
-					<li className="breadcrumb-item text-xs"><a href="#">Home</a></li>
+					<li className="breadcrumb-item text-xs"><a href="/">Home</a></li>
 					<li className="breadcrumb-item text-xs"><a href="#">Mobile Accessories</a></li>
 					<li className="breadcrumb-item active text-xs" aria-current="page">Mobile Phones</li>
 				</ol>

@@ -1,5 +1,5 @@
 import React from 'react'
-
+import Link from 'next/link'
 const FeaturedItemsMain = () => {
   return (
     <>
@@ -10,7 +10,7 @@ const FeaturedItemsMain = () => {
                         <div className="d-flex flex-column align-items-center justify-content-center">
                             <h2 className='text-2xl text-center p-2'>Top Deals on Today</h2>
                             <div className="p-2">
-                                <button className="btn btn-primary">VIEW ALL</button>
+                                <Link href="/components/mainComponent/productsMain" className="btn btn-primary">VIEW ALL</Link>
                             </div>
                         </div>
                     </div>
